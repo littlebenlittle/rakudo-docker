@@ -8,5 +8,5 @@ RUN apt-get update && apt-get install -y gpg ca-certificates \
  && ln -s /opt/rakudo-pkg/bin/raku /usr/bin/raku \
  && ln -s /opt/rakudo-pkg/bin/nqp /usr/bin/nqp \
  && ln -s /opt/rakudo-pkg/bin/moar /usr/bin/moar \
- && ln -s /opt/rakudo-pkg/bin/zef /usr/bin/zef \
+ && ln -s /opt/rakudo-pkg/bin/zef /usr/bin/zef
 
