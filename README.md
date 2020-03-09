@@ -1,8 +1,10 @@
 # rakudo
 
-Rakudo built from (nxadm)[https://nxadm.github.io/rakudo-pkg/] for debian:10.
+Rakudo built from [nxadm](https://nxadm.github.io/rakudo-pkg/) for debian:10, with some added love like `gcc`, `make`, `git`, and `curl`, which `zef` needs.
 
 ## Use
+
+Make sure your `$HOME/*` directories already exist, otherwise docker will create them with root-only permissions.
 
 ```
 docker run -it --rm $(id -u) \
